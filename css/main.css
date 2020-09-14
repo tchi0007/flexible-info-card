@@ -1,6 +1,6 @@
 html {
-  background-color: lightgrey;
-  font-family: "Open Sans",sans-serif;
+  background-color: #ccc;
+  font-family: "Open Sans", sans-serif;
   box-sizing: border-box;
   line-height: 1.5;
 }
@@ -13,7 +13,12 @@ body {
   margin: 0;
 }
 
-h2{
+section {
+  align-items: stretch;
+  padding: 1rem;
+}
+
+h2 {
   text-align: center;
 }
 
@@ -24,9 +29,8 @@ li {
   padding: 2rem;
 }
 
-
-
 img {
+  display: block;
   width: 5rem;
 }
 
@@ -34,5 +38,5 @@ a {
   background-color: #444;
   color: #fff;
   padding: .5rem 1rem .6rem;
-
+  text-align: center;
 }
