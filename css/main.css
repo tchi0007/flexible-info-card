@@ -14,7 +14,6 @@ body {
 }
 
 section {
-  align-items: stretch;
   padding: 1rem;
 }
 
@@ -24,10 +23,12 @@ h2 {
 
 li {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 2rem;
+  justify-content: space-around;
   align-items: center;
+}
+
+li hgroup {
+  width: 10rem;
 }
 
 img {
@@ -40,4 +41,5 @@ a {
   color: #fff;
   padding: .6rem 1rem .5rem;
   text-align: center;
+  text-decoration: none;
 }
